@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+}
+/* Nav */
+nav {
+    background-color: #1F2937;
+    display: flex;
+    padding-bottom: 5%;
+}
+nav ol{
+    margin-left: 10%;
+}
+nav ol li{
+    color: #F9FAF8;
+    font-size: 24px;
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 30%;
+}
+nav ul li{
+    padding: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Main */
+.section1{
+    background-color: #1F2937;
+    margin-top: -1.3%;
+    display: flex;
+    padding-bottom: 50px;
+}
+.section1 div{
+    width: 30%;
+    margin-left: 13%;
+}
+.section1 h1{
+    color: #F9FAF8;
+    font-size: 48px;
+}
+.section1 p{
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: -8%;
+}
+.section1 button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 5px 20px 5px;
+}
+.section1 img{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.section2{
+    padding: 10px 50px 75px;
+}
+.section2 div h1{
+    text-align: center;
+}
+.section2 div ul{
+    width: fit-content;
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.section2 div ul li{
+    padding: 10px;
+    color: #1F2937;
+    font-size: 18px;
+}
+.section2 div ul li img{
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    margin-bottom: -20px;
+}
+.section3{
+    background-color: #E5E7EB;
+    padding: 75px;
+}
+.section3 p{
+    width: 60%;
+    color: #1F2937;
+    font-size: 36px;
+    margin: auto;
+    font-style: italic;
+    padding: 10px;
+}
+.section3 b{
+    margin-left: 60%;
+}
+.section4{
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    background-color: #3882F6;
+    padding: 20px 100px 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.section4 div h2{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.section4 div p{
+    color: #E5E7EB;
+    margin-top: -20px;
+}
+.section4 div button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 2px 15px 2px;
+    margin: 38px 0px 0px 100px;
+}
+footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    text-align: center;
+    padding: 20px 0px 20px;
+    font-size: 80%;
+}
